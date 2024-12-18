@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>test-git</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+        margin: 0;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            background-color: #111;
+            display: flex;
+            box-shadow: inset 0 0 10px aqua;
+        }
+        button{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: absolute;
+            padding: 50px;
+            border: 1px solid aqua;
+            text-align: center;
+            border-radius: 20px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: none;
+            color: aqua;
+            font-size: 24px;
+            transition: all 1.4s ease;
+        }
+        button:hover{
+            text-shadow: 0 0 3px aqua;
+            box-shadow: 0 0 4px  aqua ,
+            0 0 60px aqua,
+            inset 0 0 10px aqua;
+            cursor: pointer;
+
+        }
+    </style>
 </head>
 <body>
-    <button id="button-center">HELLO WORLD</button>
-    
+    <button>HELLO WORLD</button>
 </body>
 </html>
